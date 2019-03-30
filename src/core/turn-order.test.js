@@ -23,7 +23,7 @@ describe('turnOrder', () => {
       });
       if (undefinedEntry === undefined) {
         return {
-          message: () => `expected some properties of ctx to be undefined`,
+          message: () => 'expected some properties of ctx to be undefined',
           pass: false,
         };
       } else {
